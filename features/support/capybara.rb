@@ -1,6 +1,7 @@
 require 'capybara/rspec'
 require 'capybara-screenshot/rspec'
 
+# Capybara.server = :webrick
 
 Capybara.register_driver(:headless_chrome) do |app|
   capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(

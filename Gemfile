@@ -97,6 +97,7 @@ gem 'unicorn-worker-killer'
 gem 'apitome', '~> 0.1.0'
 
 group :test do
+  # gem 'puma'
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'cucumber-rails', require: false
