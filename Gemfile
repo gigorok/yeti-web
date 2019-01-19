@@ -100,7 +100,6 @@ group :test do
   # gem 'puma'
   gem 'capybara'
   gem 'capybara-screenshot'
-  gem 'cucumber-rails', require: false
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
